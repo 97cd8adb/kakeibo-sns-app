@@ -34,19 +34,19 @@ const CreatePost = ({ isAuth }) => {
   return (
    <div className="createPostPage">
     <div className="postContainer">
-      <h1>記事を投稿する</h1>
+      <h1>使ったお金を公表🎶</h1>
     <div className="whenThisPost">
-      <div>日付</div>
+      <div>使った日付</div>
       <input
        type="date" // 日付選択UIを表示
        onChange={(e) => setSelectedDate(e.target.value)}
       />
     </div>
     <div className="inputPost">
-      <div>タイトル</div>
+      <div>使った金額</div>
         <input
-        type="text"
-        placeholder="タイトルを記入"
+        type="number"
+        placeholder="使った金額を記入"
         onChange={(e) => setTitle(e.target.value)}
         />
       </div>
@@ -64,14 +64,15 @@ const CreatePost = ({ isAuth }) => {
         </select>
       </div>
     <div className="inputPost">
-      <div>投稿</div>
+      <div>買った商品の紹介や感想</div>
         <textarea
-         placeholder="投稿内容を記入"
+         placeholder="買った商品の紹介や感想を記入"
          onChange={(e) => setPostText(e.target.value)}
+         maxLength={140}
         ></textarea>
       </div>
     <button className="postButton" onClick={createPost}>
-      投稿する</button>
+      みんなに教える❣️</button>
     </div>
   </div>
   )

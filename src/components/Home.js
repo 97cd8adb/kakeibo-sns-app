@@ -29,13 +29,13 @@ export const Home = () => {
       return(
       <div className="postContents" key={post.id}>
         <div className="postHeader">
-          <div>{post.title}</div>
+          <div>{post.title}円使いました❣️</div>
         </div>
         <div className="dateKakeibo">
           {post.selectedDate}
         </div>
         <div className="categoryKakeibo">
-          {post.category}
+          {post.category}にて
         </div>
         <div className="postTextContainer">{post.postText}</div>
         <div className="nameAndDeleteButton">

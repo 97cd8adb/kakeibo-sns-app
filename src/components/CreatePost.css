@@ -17,8 +17,27 @@
   box-shadow: 5px 9px 15px -5px #777777;
 }
 
-.postContainer div {
+.postContainer h1 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
   margin: 0;
+}
+
+.inputPost div {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 0;
+  font-size: large;
+}
+
+.whenThisPost div {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 0;
+  font-size: large;
 }
 
 .postContainer input{
@@ -33,6 +52,21 @@
   height: 120px;
   outline: none;
   padding: 7px;
+}
+
+.postCategory div {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 0;
+  font-size: large;
+}
+
+.postCategory select {
+  width: 100%;
+  height: 30px;
+  outline: none;
+  padding: 0px 4px;
 }
 
 .postButton {

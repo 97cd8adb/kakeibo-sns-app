@@ -22,6 +22,22 @@
 .postHeader div {
   text-align: center;
   margin-top: 5px;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.categoryKakeibo {
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  margin: 5px;
+  padding: 5px;
+}
+
+.dateKakeibo {
+  text-align: right;
+  margin: 5px;
+  padding: 5px;
 }
 
 .postContents .postTextContainer {
@@ -29,6 +45,8 @@
   word-wrap: break-word;
   max-height: 400px;
   width: 100%;
+  margin: 5px;
+  padding: 5px;
 }
 
 .nameAndDeleteButton {

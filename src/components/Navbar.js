@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import "./Navbar.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
-  faHouse,
+  faComment,
   faFilePen, 
   faArrowRightToBracket 
 } from '@fortawesome/free-solid-svg-icons'
@@ -12,8 +12,8 @@ const Navbar = ( {isAuth} ) => {
   return(
   <nav>
     <Link to="/">
-      <FontAwesomeIcon icon={faHouse} />
-        ホーム
+      <FontAwesomeIcon icon={faComment} />
+        タイムライン
     </Link>
     {!isAuth ? ( 
       <Link to = "/login">
